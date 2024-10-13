@@ -1,7 +1,6 @@
 .header{
     height: 34vw;
     margin: 30px auto;
-    /* background: url('./header_img.png') no-repeat; */
     background-size: contain;
     position: relative;
 }
@@ -11,6 +10,7 @@
     background: url('./header_img.png') no-repeat;
     background-size: contain;
     position: relative;
+    border-radius: 15px;
 }
 
 .header-contents{
@@ -48,8 +48,10 @@
 }
 
 .header-contents button:hover{
-    background-color: rgb(156, 0, 96);
+    background-color: rgb(31, 11, 23);
     color: white;
+    transition: 0.5s;
+    transform: scale(1.08);
 }
 
 @media (max-width:1050px) {
