@@ -38,6 +38,15 @@
     transition: 0.2s;
 }
 
+.explore-menu-list-item img:hover{
+    width: 7.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s;
+    padding: 2px;
+}
+
 .explore-menu-list-item p{
     margin-top: 10px;
     color: #747474;

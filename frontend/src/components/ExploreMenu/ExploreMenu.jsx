@@ -6,7 +6,7 @@ const ExploreMenu = ({category, setCategory}) => {
   return (
     <div className='explore-menu' id='explore-menu'>
       <h1>Explore Our Menu</h1>
-      <p className='explore-menu-text'>Choose from a diverse menu featuring a delectable array of dishes. Our mission is to satisfy your cravings and elevate your dining experience, one delicious meal at a time.</p>
+      <p className='explore-menu-text'>Dive into a world of flavors with Bite Buddy! Whether you're in the mood for a quick snack, a hearty meal, or a sweet treat, we have something for everyone. Browse through our carefully curated dishes, crafted to satisfy your cravings and delivered fresh to your door. Your next favorite meal is just a click away!</p>
       <div className='explore-menu-list'>
         {menu_list.map((item, index)=>{
             return (
