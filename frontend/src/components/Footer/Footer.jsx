@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="footer" id="footer">
       <div className="footer-content">
         <div className="footer-content-left">
-          <img src={assets.logo} alt="" />
+          <img className="logo-img" src={assets.logo} alt="" />
           <p>
             Bite Buddy is your go-to platform for fast and delicious food
             delivery. We connect you with a wide range of local restaurants,
@@ -34,13 +34,13 @@ const Footer = () => {
           <h2>GET IN TOUCH</h2>
           <ul>
             <li>+1-212-456-7890</li>
-            <li>contact@tomato.com</li>
+            <li>contact@bitebuddy.com</li>
           </ul>
         </div>
       </div>
       <hr />
       <p className="footer-copyright">
-        Copyright © 2024 Tomato.com - All Rights Reserved.
+        Copyright © 2024 BiteBuddy.com - All Rights Reserved.
       </p>
     </div>
   );
